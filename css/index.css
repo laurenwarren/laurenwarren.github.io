@@ -31,11 +31,18 @@ h3 {
     font-weight: 600;
     color: #adbfe3;
 }
+
+h4 { 
+    font-weight: 600;
+    color: black;
+}
+
 p { 
     font-weight: lighter;
     color: white;
     font-size: 12pt;
 }
+
 /* || Header and Main Navigation */
 .navbar {
     background-color: #ef6322;
@@ -101,4 +108,24 @@ p {
   #about-left {
       max-width: 600px;
       padding: 250px;
+      float: left;
+  }
+
+  /* skills on the right */
+  #blue-blob {
+      float: right;
+      margin-top: 200px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
