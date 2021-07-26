@@ -1,0 +1,104 @@
+/* || General Styles */
+
+body { 
+    background-color: black;
+    margin: 0px;
+ }
+
+
+ul { 
+    
+ }
+
+blockquote { 
+    
+ }
+
+ /* || Typography */
+
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+ h1 { 
+    font-weight: bold;
+}
+h2 { 
+    font-weight: bold;
+    color: #f1993e;
+    font-size: 45pt;
+}
+h3 { 
+    font-weight: 600;
+    color: #adbfe3;
+}
+p { 
+    font-weight: lighter;
+    color: white;
+    font-size: 12pt;
+}
+/* || Header and Main Navigation */
+.navbar {
+    background-color: #ef6322;
+    overflow: hidden;
+    height: 70px;
+    padding-right: 10px;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 25px 25px 25px 0px;
+    margin: 0px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right
+  }
+
+  .fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: white;
+    font-weight: 800;
+    border-bottom: #f1993e 2px;
+  }
+
+  .LW-logo {
+    transform: translate(0px, -70px)
+  }
+
+  #hero {
+    width: 75%;
+    padding: 0 1% 0 1%;
+  }
+
+  #hero-image {
+    align-items: center;  
+    margin: 0px 50px 50px 250px;
+    float: left;
+  }
+
+  #hero-text {
+    font-size: 60px;
+    text-align: center;
+    float: right;
+  }
+
+  /* about info on left */
+  #about-left {
+      max-width: 600px;
+      padding: 250px;
+  }
