@@ -6,14 +6,6 @@ body {
  }
 
 
-ul { 
-    
- }
-
-blockquote { 
-    
- }
-
  /* || Typography */
 
  body {
@@ -37,10 +29,17 @@ h4 {
     color: black;
 }
 
+h5 { 
+    font-weight: 700;
+    color: white;
+    font-size: 30pt;
+}
+
 p { 
     font-weight: lighter;
     color: white;
     font-size: 12pt;
+    line-height: 150%;
 }
 
 /* || Header and Main Navigation */
@@ -107,25 +106,36 @@ p {
   /* about info on left */
   #about-left {
       max-width: 600px;
-      padding: 250px;
+      padding: 0px 200px 200px 200px;
       float: left;
   }
 
   /* skills on the right */
   #blue-blob {
       float: right;
-      margin-top: 200px;
+  }
+  
+  .skills {
+      width: 30%;
+      float: right;
   }
 
-  .container {
+  /* footer */
+
+.footer {
     position: relative;
-    text-align: center;
-    color: white;
   }
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .footer img {
+      width: 100%;
+      height: auto;
+  }
+
+.footer-text {
+ /*   position: absolute;
+    top: 25%; */
+    padding: 20px;
+    text-align: left;
+    color: white;
+    line-height: 5%;
   }
