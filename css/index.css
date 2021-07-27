@@ -22,6 +22,7 @@ h2 {
 h3 { 
     font-weight: 600;
     color: #adbfe3;
+    font-size: 40px;
 }
 
 h4 { 
@@ -87,19 +88,17 @@ p {
   }
 
   #hero {
-    width: 75%;
-    padding: 0 1% 0 1%;
+    width: 100%;
   }
 
   #hero-image {
-    align-items: center;  
-    margin: 0px 50px 50px 250px;
+    padding-left: 15%;
     float: left;
+    width: 33.33%;
   }
 
   #hero-text {
-    font-size: 60px;
-    text-align: center;
+    text-align: left;
     float: right;
   }
 
@@ -120,10 +119,9 @@ p {
       float: right;
   }
 
-  /* footer */
+  /* old footer */
 
 .footer {
-    position: relative;
   }
 
   .footer img {
@@ -132,10 +130,25 @@ p {
   }
 
 .footer-text {
- /*   position: absolute;
-    top: 25%; */
+    position: absolute;
     padding: 20px;
     text-align: left;
     color: white;
     line-height: 5%;
+    z-index: 60;
+    transform: translate (0px, -70px);
   }
+
+  /* new footer
+   .footer {
+      background-color: #7061ff;
+      height: 400px;
+      width: 100%;
+      float: bottom;
+      
+  }
+
+  .footer:img {
+    float: right;
+  }
+  */
