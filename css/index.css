@@ -30,7 +30,7 @@ h1 {
 h2 { 
   font-weight: bold;
   color: #f1993e;
-  font-size: 60pt;
+  font-size: 55pt;
 }
 h3 { 
   font-weight: 600;
@@ -105,15 +105,18 @@ grid-area: nav;
   font-weight: 800;
   border-bottom: #f1993e 2px;
 }
-
 .LW-logo {
   transform: translate(20px, -70px)
 }
 
+/* Second Nav - Home */
+
+
+
 #hero {
   display: flex;
   flex-direction: row;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 .headerPic {
   grid-area: headerPic;
@@ -125,6 +128,7 @@ grid-area: nav;
   grid-area: headerText;
   display: flex;
   align-items: center;
+  transform: translateX(-25%)
 }
 
 .info {
@@ -154,7 +158,9 @@ grid-area: nav;
   display: flex;
   grid-area: footer1;
   background: url(../images/footer-blob.png) no-repeat; 
-  background-size: contain;
+  background-size: 60%;
+  background-position-y: 60%;
+  background-position-x: 160%;
   background-color: #7061ff;
   margin-top: 200px;
   padding: 50px;
@@ -182,24 +188,25 @@ grid-area: foottext;
 display: flex;
 align-items: center;
 justify-content: center;
+width: auto;
 }
 
 #buttons1 {
 grid-area: docx;
-align-items: flex-end;
+transform: translateX(25%)
 }
 
 #buttons2 {
 grid-area: styled;
 }
 
-.resume1button {
-border: solid 3px white;
-border-radius: 25px;
+.resume1button, .resume2button {
 color: white;
+border-radius: 25px;
+border: none;
 width: 50%;
 height: 50px;
-background-color: transparent;
+background-color: #5c4bf1;
 text-align: center;
 font-size: 16px;
 margin: 5%;
@@ -207,42 +214,25 @@ transition-duration: 0.4s;
 }
 
 .resume1button:hover {
-border: solid 3px white;
 border-radius: 25px;
 color: #7061ff;
 font-weight: bold;
 background-color: white;
 justify-content: center;
-font-size: 16px;
-margin: 5%;
-transition-duration: 0.4s;
-}
-
-.resume2button {
-color: #7061ff;
-border: solid 3px white;
-border-radius: 25px;
-width: 50%;
-height: 50px;
-background-color: white;
-text-align: center;
 font-size: 16px;
 margin: 5%;
 transition-duration: 0.4s;
 }
 
 .resume2button:hover {
-border: solid 3px white;
-border-radius: 25px;
-color: white;
-font-weight: bold;
-background-color: transparent;
-text-align: center;
-align-items: center;
-justify-content: center;
-font-size: 16px;
-margin: 5%;
-transition-duration: 0.4s;
+  border-radius: 25px;
+  color: #7061ff;
+  font-weight: bold;
+  background-color: white;
+  justify-content: center;
+  font-size: 16px;
+  margin: 5%;
+  transition-duration: 0.4s;
 }
 
 .footer2 {
