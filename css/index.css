@@ -15,6 +15,22 @@ main {
   "footer1 footer1 footer1"
   "footer2 footer2 footer2";
 }
+
+#homeMain {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-areas:
+   "nav nav nav nav"
+   "blank hero hero blank"
+   "blank nav2 nav2 blank"
+   "blank circusPic circusText blank"
+   "blank clarifyPic clarifyText blank"
+   "blank ohPic ohText blank"
+   "footer footer footer footer"
+   "footer2 footer2 footer2 footer 2";
+ }
+
 #hero {
 grid-area: hero;
 }
@@ -120,6 +136,15 @@ grid-area: nav;
 .LW-logo {
   transform: translate(20px, -70px)
 }
+
+/* Home styling */
+#homeHero {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+}
+
+
 
 /* Second Nav - Home */
 
